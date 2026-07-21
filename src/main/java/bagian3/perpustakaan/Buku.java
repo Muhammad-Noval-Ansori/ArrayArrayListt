@@ -24,3 +24,21 @@ package bagian3.perpustakaan;
 public class Buku {
     
 }
+return judul;
+}
+public String getPenulis() {
+return penulis;
+}
+public boolean isDipinjam() {
+return dipinjam;
+}
+// Method untuk mengubah status pinjam
+public void setDipinjam(boolean dipinjam) {
+this.dipinjam = dipinjam;
+}
+// Mengembalikan keterangan buku dalam bentuk teks
+public String info() {
+String status = dipinjam ? "Dipinjam" : "Tersedia";
+return judul + " oleh " + penulis + " [" + status + "]";
+}
+}
