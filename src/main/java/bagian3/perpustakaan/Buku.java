@@ -1,4 +1,17 @@
-/*
+package bagian3.perpustakaan;
+public class Buku {
+// Atribut: data yang dimiliki setiap buku
+private String judul;
+private String penulis;
+private boolean dipinjam;
+// Constructor: dipanggil saat objek dibuat
+public Buku(String judul, String penulis) {
+this.judul = judul;
+this.penulis = penulis;
+this.dipinjam = false; // buku baru dianggap tersedia
+}
+// Getter: cara membaca atribut dari luar class
+public String getJudul() {/*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
