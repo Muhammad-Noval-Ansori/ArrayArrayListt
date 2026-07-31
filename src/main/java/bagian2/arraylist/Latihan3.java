@@ -12,16 +12,4 @@ System.out.println("Isi list : " + mahasiswa);
 System.out.println("Jumlah : " + mahasiswa.size());
 System.out.println("Index 1 : " + mahasiswa.get(1));
 }
-}/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package bagian2.arraylist;
-
-/**
- *
- * @author USER
- */
-public class Latihan3 {
-    
-}
+}/
